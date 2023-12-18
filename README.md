@@ -23,17 +23,15 @@ The Market Data Query API is an innovative web application leveraging FastAPI an
 1. **Clone the repository**
    ```bash
    git clone https://github.com/waraichinc/financial_bot.git
-   cd financil_bot
+   cd financial_bot
    ```
 2. **Copy the .env.sample into .env and set the appropriate env variables**
-
-```bash
-  API_KEY=API_KEY
-  DATA_FILE_PATH=FILE_PATH
-  HOST=HOSTNAME
-  PORT=PORT
-```
-
+   ```bash
+   API_KEY=API_KEY
+   DATA_FILE_PATH=FILE_PATH
+   HOST=HOSTNAME
+   PORT=PORT
+   ```
 3. **Build and Run with Docker Compose**
    ```bash
    docker-compose up --build
