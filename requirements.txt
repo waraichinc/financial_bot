@@ -3,3 +3,7 @@ uvicorn
 pydantic
 langchain
 pandas
+openai
+tabulate
+langchain-experimental
+streamlit
