@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+langchain
+pandas
+openai
+tabulate
+python-dotenv
+langchain-experimental
+pytest
+mock
+tox
+
+
