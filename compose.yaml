@@ -2,7 +2,7 @@ services:
   fastapi:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: ./app/api/Dockerfile
     ports:
       - 8000:8000
     environment:
@@ -14,7 +14,7 @@ services:
   streamlit:
     build:
       context: .
-      dockerfile: Dockerfile.streamlit
+      dockerfile: ./app/frontend/Dockerfile
     ports:
       - "8501:8501"
     environment:
