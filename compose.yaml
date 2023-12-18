@@ -14,7 +14,7 @@ services:
   streamlit:
     build:
       context: .
-      dockerfile: Dockerfile_streamlit
+      dockerfile: Dockerfile.streamlit
     ports:
       - "8501:8501"
     environment:
