@@ -4,6 +4,8 @@
 
 The Market Data Query API is an innovative web application leveraging FastAPI and Streamlit to provide a powerful NLP Market Data Query Interface. Incorporating Langchain agents for advanced language processing, the project is containerized with Docker, ensuring ease of deployment and environment consistency.
 
+![Market Data Query API](images/market-data-query.png)
+
 ## Features
 
 - **FastAPI Backend**: High-performance, easy-to-use framework for APIs.
