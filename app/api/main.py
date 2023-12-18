@@ -32,7 +32,7 @@ def welcome() -> str:
     return "Hello! Welcome to the NLP Market Data Query API"
 
 @app.post("/api/v1/marketdataquery", response_model=Dict[str, Any], status_code=200)
-def market_data_query(query: Query) -> Dict[str, Any]:
+async def market_data_query(query: Query) -> Dict[str, Any]:
     """
     Endpoint for processing market data queries.
 
